@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:todo_app/widgets/icon_button.dart';
 
 import '../widgets/custom_button.dart';
-import '../api/interceptor.dart';
+import '../widgets/icon_button.dart';
+import '../../api/interceptor.dart';
 
 class TodoScreen extends StatefulWidget {
   const TodoScreen({super.key});

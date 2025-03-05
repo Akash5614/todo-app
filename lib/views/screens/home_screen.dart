@@ -22,6 +22,8 @@ class HomeScreen extends StatelessWidget {
           CustomButton(name: 'Go To Todo', method: () =>  _handleNavigate(context)),
           const SizedBox(height: 16),
           CustomButton(name: 'Instagram', method: () =>  Navigator.pushNamed(context, AppRoutes.insta)),
+          SizedBox(height: 10),
+          CustomButton(name: 'To-do App Using Getx', method: () => Navigator.pushNamed(context, AppRoutes.getxTodo))
         ],
       ))
     );
